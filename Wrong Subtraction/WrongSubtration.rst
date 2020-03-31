@@ -9,7 +9,7 @@ Little girl Tanya is learning how to decrease a number by one, but she does it w
 
 You are given an integer number *n*. Tanya will subtract one from it *k* times. Your task is to print the result after all *k* subtractions.
 
-It is guaranteed that the result will be positive integer number.
+It is guaranteed that the result will be a positive integer number.
 
 **Input**
 -----
@@ -19,16 +19,18 @@ The first line of the input contains two integer numbers *n* and *k (2≤n≤109
 ------
 Print one integer number — the result of the decreasing *n* by one *k* times.
 
-It is guaranteed that the result will be positive integer number.
+It is guaranteed that the result will be a positive integer number.
 
 **Examples**
 --------
 *Input*
 512 4
+
 *Output*
 50
 
 *Input*
 1000000000 9
+
 *Output*
 1
