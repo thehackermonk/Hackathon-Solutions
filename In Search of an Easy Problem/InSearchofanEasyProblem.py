@@ -1,11 +1,10 @@
 n=int(input())
-responses=[]
-responses=list(map(int,input().strip().split(' ')[:n]))
+response=[]
+response=list(map(int,input().strip().split(' ')[:n]))
 
 opinion='EASY'
 
-for response in responses:
-    if response==1:
-        opinion='HARD'
+if 1 in response:
+    opinion='HARD'
 
 print(opinion)
